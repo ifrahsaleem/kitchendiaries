@@ -1,38 +1,272 @@
-.App {
-  text-align: center;
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.btn-primary {
+  border-radius: 30px;
+  border: none;
+  width: 200px;
+  height: px;
+  background: #ff6c6c 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000003e;
+  opacity: 1;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Jumbotron*/
+.jumbo-design {
+  background: #fc8686;
+}
+
+.jumbo-image {
+  z-index: 2;
+  opacity: 1;
+}
+
+.jumbo-text {
+  letter-spacing: 0px;
+  color: #fc8686;
+  opacity: 1;
+}
+
+/*for small screens*/
+@media screen and (max-width: 767px) {
+  .jumbo-design {
+    height: 140pt;
+  }
+
+  #navbar-heading {
+    display: none;
+  }
+
+  .jumbo-image {
+    top: -90px;
+    display: block;
+    padding-left: 9%;
+  }
+
+  .jumbo-image img {
+    width: 228pt;
+    height: 174pt;
+  }
+
+  .jumbo-text {
+    text-align: center;
+    font: Bold 36px/41px Gill Sans;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/*for md screens (ipad)*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .jumbo-design {
+    background: #fc8686;
+    height: 490px;
+    width: 100px;
+  }
+
+  .jumbo-image {
+    top: 75px;
+    left: 150px;
+    right: 10px;
+  }
+
+  .jumbo-image img {
+    width: "488";
+    height: "400";
+  }
+
+  .jumbo-text {
+    top: 80px;
+    left: 50px;
+    width: 812px;
+    height: 153px;
+    text-align: left;
+    font: Bold 36px/41px Gill Sans;
+  }
+}
+
+/*for large screens (laptops)*/
+@media screen and (min-width: 1025px) and (max-width: 1435px) {
+  .jumbo-design {
+    background: #fc8686;
+    height: 600px;
+    width: 100px;
+  }
+
+  .jumbo-image {
+    top: 80px;
+    left: 200px;
+    right: 20px;
+  }
+
+  .jumbo-image img {
+    width: "521";
+    height: "427";
+  }
+
+  .jumbo-text {
+    top: 150px;
+    left: 140px;
+    width: 812px;
+    height: 153px;
+    text-align: left;
+    font: Bold 36px/41px Gill Sans;
+  }
+  .head {
+    display: none;
+  }
+}
+
+/*for x-large screens(macintosh)*/
+@media screen and (min-width: 1436px) {
+  .jumbo-design {
+    background: #fc8686;
+    height: 600px;
+    width: 100px;
+  }
+
+  .jumbo-image {
+    top: 80px;
+    left: 350px;
+    right: 10px;
+  }
+
+  .jumbo-image img {
+    width: "521";
+    height: "427";
+  }
+
+  .jumbo-text {
+    top: 150px;
+    left: 126px;
+    width: 812px;
+    height: 153px;
+    text-align: left;
+    font: Bold 42px/47px Gill Sans;
+  }
+  .head {
+    display: none;
+  }
+}
+
+/*NAVBAR*/
+.navbar-dark {
+  background-color: #fc8686;
+}
+
+.nav-link {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 3px 6px #0000003d;
+  opacity: 1;
+}
+
+#navbar-heading {
+  padding-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 32px;
+}
+
+.dropdown-menu {
+  background-color: #fd9e9e;
+}
+
+.dropdown-item {
+  color: #ffffff;
+}
+
+#navbar-heading {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #fc8686;
+  opacity: 1;
   color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-weight: none;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  margin-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+span a:hover {
+  text-decoration: none;
+  color: pink;
+}
+
+.footer-item a {
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-right: 20px;
+}
+
+.icon {
+  color: #ffffff;
+  opacity: 1;
+  margin-right: 20px;
+}
+
+.web-design {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+/* about page  */
+.about {
+  color: #fc8686;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.head {
+  color: #fc8686;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.about h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aboutimg {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 766px) {
+  .about h2 {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 767px) {
+  .head {
+    display: none;
   }
 }

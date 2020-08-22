@@ -7,20 +7,22 @@ export default function About() {
   return (
     <div className="container">
       <div className="row">
-        <div className="head order-first text-justify-center">
-          <h2> Who We Are </h2>
+        <div className="head  order-first ">
+          <h2 className="text-center"> Who We Are </h2>
         </div>
       </div>
       <div className="row">
-        <div className="col-12 col-md-4">
+        <div className="col-12 col-md-4 justify-content-center text-center">
           <img
             className="aboutimg img-fluid"
             src="assets/images/Optimized-aboutus.jpeg"
             alt="About us image"
+            // height="446px"
+            // width="350px"
           />
         </div>
 
-        <div className="about  col col-md-8 mb-4">
+        <div className="about justify-content-center text-justify   col col-md-8 mb-4">
           <h2 classname="head-2"> Who We Are </h2>
           <p>
             Kitchen Diaries is a locally established business found in May 2020

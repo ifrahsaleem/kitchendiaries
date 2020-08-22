@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="col-3 col-md-2">
             <div>
               <span className="footer-item">
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
               </span>
               <span className="footer-item">
                 <Link to="/about">About</Link>

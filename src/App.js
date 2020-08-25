@@ -1,32 +1,36 @@
 import React, { Component } from "react";
 import Navbar from "./components/navbar";
-import Jumbotron from "./components/jumbotron";
 import Footer from "./components/footer";
 import { BrowserRouter } from "react-router-dom";
 import { Switch, Route, Redirect } from "react-router-dom";
-import About from "./pages/about";
+import AboutPage from "./pages/about";
+import HomePage from "./pages/homepage";
+import ContactPage from "./pages/contact";
 import "./App.css";
 import Categories from "./components/categories";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <BrowserRouter>
         <div>
-          {/* <Navbar />
+          <Navbar />
+
           <Switch>
-            <Route path="/about" exact component={About} />
+            <Route path="/home" exact component={HomePage} />
           </Switch>
-          <Jumbotron /> */}
-          <Categories />
-          {/* <Footer /> */}
+
           <Switch>
-            <Route path="/about" exact component={About} />
+            <Route path="/about" exact component={AboutPage} />
           </Switch>
+
+          <Switch>
+            <Route path="/Contactus" exact component={ContactPage} />
+          </Switch>
+
+          <Redirect to="/home" />
+
+          <Footer />
         </div>
       </BrowserRouter>
     );

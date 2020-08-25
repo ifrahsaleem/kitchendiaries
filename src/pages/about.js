@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Footer from "../components/footer";
+import Footer from '../components/footer';
 // import Aboutimg from "./public/assets/images/Optimized-aboutus.jpeg";
 
 export default function About() {
@@ -49,7 +48,7 @@ export default function About() {
           <div></div>
         </div>
       </div>
-      <Footer />
+      
     </div>
   );
 }

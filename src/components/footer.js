@@ -5,12 +5,12 @@ import { AiOutlineInstagram } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <footer className="footer">
-      <div className="container">
-        <div className="row">
+    <footer className="footer ">
+      <div className="container ">
+        <div className="row ">
           {/*Col 1 */}
           <div className="col-3 col-md-2">
-            <div>
+            <div className="mt-3">
               <span className="footer-item">
                 <Link to="/home">Home</Link>
               </span>
@@ -18,7 +18,7 @@ export default function Footer() {
                 <Link to="/about">About</Link>
               </span>
               <span className="footer-item">
-                <Link to="/contact">Contact</Link>
+                <Link to="/Contactus">Contact</Link>
               </span>
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="col-3 col-md-4"></div>
 
           {/*Col 4*/}
-          <div className="col-12 col-md-2">
+          <div className="col-12 col-md-2 mt-3">
             <span>
               <Link to="/">
                 <FaFacebookF className="icon" />

@@ -1,3 +1,5 @@
+
+
 .row-header {
   margin: 0px auto;
   padding: 0px auto;
@@ -194,7 +196,8 @@
 
 /* footer */
 .footer {
-  position: fixed;
+  position: relative;
+  margin-top: auto;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -204,6 +207,7 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
   font-weight: none;
+  
 }
 
 .container {
@@ -234,6 +238,38 @@ span a:hover {
   font-size: 12px;
   margin-bottom: 10px;
 }
+
+/*description*/
+.description-heading{
+  font: Bold 40px/46px Gill Sans;
+  border-right: 1px solid black; 
+  color: #FF6C6C;
+}
+
+.description-text{
+  font: Regular 32px/36px Gill Sans;
+  letter-spacing: 0px;
+  color: #FC8686;
+  opacity: 1;
+}
+
+@media screen and (min-width:768){
+  .description-heading{
+    border-right: 4px solid black; 
+    text-align: right;
+  }
+
+  .description-text{
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:767){
+  .description-heading{
+    text-align: center;
+  }
+}
+
 
 /* about page  */
 .about {
@@ -272,3 +308,77 @@ span a:hover {
     display: none;
   }
 }
+
+
+
+
+/*contactpage*/
+
+.btn-info{
+  border-radius: 30px;
+  border: none;
+  background: #FF6C6C 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000003E;
+  opacity: 1;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100px;
+}
+
+.contact-heading{
+  font: normal normal normal Gill Sans;
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #FA5F5F;
+  opacity: 1;
+  }
+  
+  .contact-text{
+  font: normal normal normal  Gill Sans;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #FC8686;
+  }
+  
+  .contact-text-bold{
+  font: normal normal Gill Sans;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #FA5F5F;
+  }
+
+
+
+@media screen and (min-width:768px ){
+.contact-heading{
+text-align: left;
+}
+
+.contact-text{
+text-align: left;
+}
+
+.contact-text-bold{
+text-align: left;
+}
+
+}
+
+@media screen and (max-width:767){
+  .contact-heading{
+    text-align: center;
+    }
+    
+    .contact-text{
+    text-align: center;
+    }
+    
+    .contact-text-bold{
+    text-align: center;
+    }
+
+  
+}
+
+
+

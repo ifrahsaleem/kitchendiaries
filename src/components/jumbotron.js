@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { Jumbotron } from "reactstrap";
+
 
 class jumbotron extends Component {
-  constructor(props) {
-    super(props);
-  }
+ 
   render() {
     return (
       <div className="container-fluid">
@@ -23,7 +21,7 @@ class jumbotron extends Component {
 
           <div className="col-12  col-md-5 jumbo-image">
             <img
-              src="assets/images/jumbo-image.png"
+              src="assets/images/jumbo-image.jpg"
               width="521"
               height="427"
               className="img-fluid center"

@@ -40,12 +40,6 @@ export default class Categories extends Component {
               opacity: tweenCollection.opacity,
             };
 
-            let defaultStyle = {
-              scale: 1,
-              imageOpacity: 0.7,
-              opacity: 1,
-            };
-
             return (
               <div>
                 <h2 className="text-md-left text-sm-center text-center">
@@ -53,7 +47,6 @@ export default class Categories extends Component {
                 </h2>
 
                 <div className="row">
-                  {/* <div className="container"> */}
                   <div
                     className="col-12 col-md-4 justify-content-center text-center imgContainer "
                     onMouseOver={this.handleHover.bind(null, true)}
@@ -65,7 +58,7 @@ export default class Categories extends Component {
                       alt="Cake"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption  d-flex h-100 align-items-center justify-content-center">
                       Cakes
@@ -82,7 +75,7 @@ export default class Categories extends Component {
                       alt="Cakesickle"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Cakesickles
@@ -99,17 +92,15 @@ export default class Categories extends Component {
                       alt="Tarts"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Tarts
                     </div>
                   </div>
-                  {/* </div> */}
                 </div>
 
                 <div className="row">
-                  {/* <div className="container"> */}
                   <div
                     className="col-12 col-md-4 justify-content-center text-center"
                     onMouseOver={this.handleHover.bind(null, true)}
@@ -121,7 +112,7 @@ export default class Categories extends Component {
                       alt="Cheesecake"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Cheesecakes
@@ -138,7 +129,7 @@ export default class Categories extends Component {
                       alt="Brownies"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Brownies
@@ -155,13 +146,12 @@ export default class Categories extends Component {
                       alt="Cookies"
                       height="350x"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Cookies
                     </div>
                   </div>
-                  {/* </div> */}
                 </div>
 
                 <div className="row">
@@ -176,7 +166,7 @@ export default class Categories extends Component {
                       alt="Cupcake"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Cupcakes
@@ -193,7 +183,7 @@ export default class Categories extends Component {
                       alt="Burger"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Burgers
@@ -210,7 +200,7 @@ export default class Categories extends Component {
                       alt="Specials"
                       height="350px"
                       width="350px"
-                      style={this.state.isHover ? styleImage : defaultStyle}
+                      style={styleImage}
                     />
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                       Specials

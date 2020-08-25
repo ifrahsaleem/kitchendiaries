@@ -17,12 +17,10 @@ export default function About() {
             className="aboutimg img-fluid"
             src="assets/images/Optimized-aboutus.jpeg"
             alt="About us image"
-            // height="446px"
-            // width="350px"
           />
         </div>
 
-        <div className="about justify-content-center text-justify   col col-md-8 mb-4">
+        <div className="about justify-content-center text-justify col col-md-8 mb-4">
           <h2 classname="head-2"> Who We Are </h2>
           <p>
             Kitchen Diaries is a locally established business found in May 2020

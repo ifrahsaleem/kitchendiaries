@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Switch, Route, Redirect } from "react-router-dom";
 import About from "./pages/about";
 import "./App.css";
+import Categories from "./components/categories";
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +22,8 @@ class App extends Component {
             <Route path="/about" exact component={About} />
           </Switch>
           <Jumbotron /> */}
-          <Footer />
+          <Categories />
+          {/* <Footer /> */}
           <Switch>
             <Route path="/about" exact component={About} />
           </Switch>

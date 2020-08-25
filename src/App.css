@@ -260,6 +260,11 @@ span a:hover {
   margin-right: auto;
   margin-left: auto;
 }
+.img {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media screen and (max-width: 766px) {
   .about h2 {
@@ -270,5 +275,49 @@ span a:hover {
 @media screen and (min-width: 767px) {
   .head {
     display: none;
+  }
+}
+
+.categories h2 {
+  color: #fc8686;
+  /* font-size: px; */
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.carousel-caption {
+  font-family: "Allura", cursive;
+  font-size: 4rem;
+  text-align: left;
+  /* font: normal normal normal 119px/149px Allura; */
+  /* letter-spacing: 0px; */
+  color: #ffffff;
+  text-shadow: 0px 10px 10px #000000cc;
+  opacity: 1;
+}
+
+.img {
+  border-radius: 25px;
+}
+
+@media screen and (min-width: 766px) {
+  .img {
+    padding: 20px;
+    /* padding-left: 0px; */
+  }
+  .categories h2 {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .img {
+    width: 250px;
+  }
+  .carousel-caption {
+    font-size: 2.5rem;
   }
 }

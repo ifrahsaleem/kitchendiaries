@@ -7,17 +7,27 @@ export default function Footer() {
   return (
     <footer className="footer ">
       <div className="container ">
-        <div className="row ">
+        <div className="row">
           {/*Col 1 */}
-          <div className="col-3 col-md-2">
-            <div className="mt-3">
-              <span className="footer-item">
+          <div className="col-12 col-md-2  text-center">
+            <div className="mt-3 text-center">
+              {/* <div className="col-2 footer-item">
+              <Link to="/home">Home</Link>
+            </div>
+            <div className="col-2 footer-item">
+              <Link to="/about">About</Link>
+            </div>
+            <div className="col-2 footer-item">
+              <Link to="/Contactus">Contact</Link>
+            </div> */}
+
+              <span className="footer-item ">
                 <Link to="/home">Home</Link>
               </span>
-              <span className="footer-item">
+              <span className="footer-item ">
                 <Link to="/about">About</Link>
               </span>
-              <span className="footer-item">
+              <span className="footer-item ">
                 <Link to="/Contactus">Contact</Link>
               </span>
             </div>
@@ -30,7 +40,7 @@ export default function Footer() {
           <div className="col-3 col-md-4"></div>
 
           {/*Col 4*/}
-          <div className="col-12 col-md-2 mt-3">
+          <div className="col-12 col-md-2 mt-3 justify-content-center text-center">
             <span>
               <Link to="/">
                 <FaFacebookF className="icon" />
@@ -41,7 +51,7 @@ export default function Footer() {
                 <AiOutlineInstagram className="icon" />
               </Link>
             </span>
-            <div className="row web-design ">
+            <div className="row web-design justify-content-center text-center">
               *Website Developed and Designed by
             </div>
           </div>

@@ -1,12 +1,12 @@
 import React from "react";
-import Footer from '../components/footer';
+import Footer from "../components/footer";
 // import Aboutimg from "./public/assets/images/Optimized-aboutus.jpeg";
 
 export default function About() {
   return (
-    <div className="container">
+    <div className="container about-container">
       <div className="row">
-        <div className="head  order-first ">
+        <div className="head order-first ">
           <h2 className="text-center"> Who We Are </h2>
         </div>
       </div>
@@ -16,6 +16,8 @@ export default function About() {
             className="aboutimg img-fluid"
             src="assets/images/Optimized-aboutus.jpeg"
             alt="About us image"
+            width=""
+            height=""
           />
         </div>
 
@@ -48,7 +50,6 @@ export default function About() {
           <div></div>
         </div>
       </div>
-      
     </div>
   );
 }

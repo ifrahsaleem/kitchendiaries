@@ -207,7 +207,7 @@
   font-weight: none;
 }
 
-.container {
+.about-container {
   margin-top: 40px;
 }
 
@@ -292,11 +292,6 @@ span a:hover {
   margin-right: auto;
   margin-left: auto;
 }
-.img {
-  margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
 @media screen and (max-width: 766px) {
   .about h2 {
@@ -308,6 +303,13 @@ span a:hover {
   .head {
     display: none;
   }
+}
+
+/* categories */
+.img {
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .categories h2 {
